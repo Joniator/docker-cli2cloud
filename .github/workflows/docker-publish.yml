@@ -54,17 +54,6 @@ jobs:
         run: |
           sh .github/workflows/get_version.sh
 
-      # Build Docker image with Buildx 
-      - name: Build Docker image
-        id: build
-        uses: docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc
-        with:
-          context: .
-          load: true
-          build-args: |
-            VERSION=${{ steps.get_version.outputs.version }}
-          tags: localimage:test
-
       # Extract metadata (tags, labels) for Docker
       - name: Extract Docker metadata
         id: meta
