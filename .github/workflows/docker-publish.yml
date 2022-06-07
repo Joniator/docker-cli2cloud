@@ -62,7 +62,7 @@ jobs:
           context: .
           load: true
           build-args: |
-            VERSION=${{ steps.build.get_version.version }}
+            VERSION=${{ steps.get_version.version }}
           tags: localimage:test
 
       # Extract metadata (tags, labels) for Docker
