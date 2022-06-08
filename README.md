@@ -18,7 +18,10 @@ For cli2cloud version ([list of tags here](https://github.com/Joniator/docker-im
 * GHCR: `ghcr.io/joniator/cli2cloud:vx.x.x` 
 * Docker-Hub: `joniator/cli2cloud:vx.x.x`
 
-## Included:
+# Included:
+
+### Packages
+* cli2cloud
 
 ### Base Image
 * alpine:edge
