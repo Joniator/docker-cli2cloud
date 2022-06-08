@@ -14,7 +14,7 @@ Latest:
 * GHCR: `ghcr.io/joniator/cli2cloud:latest` 
 * Docker-Hub: `joniator/cli2cloud:latest`
 
-For cli2cloud version ([list of tags here](https://github.com/Joniator/docker-images/pkgs/container/cli2cloud))
+For cli2cloud version ([list of tags here](https://github.com/Joniator/docker-cli2cloud/pkgs/container/cli2cloud))
 * GHCR: `ghcr.io/joniator/cli2cloud:vx.x.x` 
 * Docker-Hub: `joniator/cli2cloud:vx.x.x`
 
