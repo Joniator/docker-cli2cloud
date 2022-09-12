@@ -17,7 +17,7 @@ RUN go build -o /go/bin/cli2cloud
 
 FROM alpine:3.16.2
 
-LABEL maintainer="Jonatha Boeckel <jonnyb@jonnyb.name>"
+LABEL maintainer="Jonathan Boeckel <jonnyb@jonnyb.name>"
 
 COPY --from=BUILD /go/bin/cli2cloud /usr/bin/cli2cloud
 COPY --from=BUILD /go/src/service/config.yaml /config/config.yaml
