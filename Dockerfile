@@ -1,4 +1,4 @@
-FROM alpine:3.18.0 as BUILD
+FROM alpine:3.18.3 as BUILD
 
 ARG VERSION
 
@@ -15,7 +15,7 @@ RUN git checkout "${VERSION}"
 RUN go mod download 
 RUN go build -o /go/bin/cli2cloud
 
-FROM alpine:3.18.0
+FROM alpine:3.18.3
 
 LABEL maintainer="Jonathan Boeckel <jonnyb@jonnyb.name>"
 
